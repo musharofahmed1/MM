@@ -62,7 +62,7 @@
         </nav>
         <banner class="">
             <!--Slider-->
-            <div class="carousel w-full py-10">
+            <div class="carousel w-full py-10 ">
               <!--Slide 1-->
 
               <div id="slide1" class="carousel-item relative w-full">
@@ -105,9 +105,13 @@
               </div>
             </div>
         </banner>
+        
+    </header>
+
+    <main class="container mx-auto">
          <!--Fruits-->
                        
-          <div class="flex flex-row justify-around  h-auto w-4/5 ml-36 -mb-96 p-2 py-12 rounded-xl shadow-md">
+         <div class="flex flex-row justify-around  h-auto w-4/5 ml-36  p-2 py-12 rounded-xl shadow-md">
           <div>
              <img class="" src="images/fruit1.png">
              <h6 class="text-center py-5">Strawberry</h6>
@@ -130,10 +134,141 @@
        </div>
 
        </div>
-    </header>
 
-    <main class="container mx-auto">
-     
+        <!--Timer-->
+        <div class="flex justify-center py-24 px-20">
+          <div class="text-left flex-1">
+            <h1 class="font-extrabold text-4xl">Deal of the day</h1>
+            <p class="text-sm py-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:54;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+       <!--Parent Div-->
+      <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+        <div class="card w-86 h-120 bg-base-100 shadow-xl">
+          <figure><img class="py-4" src="/images/fruit6.png" alt="Shoes" /></figure>
+          <div class="card-body text-center">
+            <p class=" text-sm">Apple</p>
+            <!--Ratings-->
+              
+              <div class="rating flex justify-center py-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+             
+
+            <div class="py-4">
+                <!-- Open the modal using ID.showModal() method -->
+          <button class="btn" onclick="my_modal_5.showModal()">open modal</button>
+          <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+         <form method="dialog" class="modal-box">
+         <h3 class="font-bold text-lg">Hello!</h3>
+        <p class="py-4">Press ESC key or click the button below to close</p>
+        <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+            </div>
+          </div>
+        </div>
+
+        <!--Card 2-->
+        <div class="card w-86 h-120 bg-base-100 shadow-xl">
+          <figure><img class="py-4" src="/images/fruit7.png" alt="Shoes" /></figure>
+          <div class="card-body text-center">
+            <p class=" text-sm">Orange</p>
+            <!--Ratings-->
+              
+              <div class="rating flex justify-center py-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+             
+
+              <div class="py-4">
+                <a href=""><h6 class="text-orange-500">Details</h6></a>
+              </div>
+          </div>
+        </div>
+        <!--Card-3-->
+        <div class="card w-86 h-120 bg-base-100 shadow-xl">
+          <figure><img class="py-4" src="/images/fruit8.png" alt="Shoes" /></figure>
+          <div class="card-body text-center">
+            <p class=" text-sm">Red Dragon</p>
+            <!--Ratings-->
+              
+              <div class="rating flex justify-center py-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+             
+
+              <div class="py-4">
+                <a href=""><h6 class="text-orange-500">Details</h6></a>
+              </div>
+          </div>
+        </div>
+        <!--Card 4-->
+        <div class="card w-86 h-120 bg-base-100 shadow-xl">
+          <figure><img class="py-4" src="/images/fruit9.png" alt="Shoes" /></figure>
+          <div class="card-body text-center">
+            <p class=" text-sm">Banana</p>
+            <!--Ratings-->
+              
+              <div class="rating flex justify-center py-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+             
+
+              <div class="py-4">
+                <a href=""><h6 class="text-orange-500">Details</h6></a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center py-10">
+        <a href=""><button class="btn btn-primary">Shop Now</button> </a>
+      </div>
     </main>
 
     <footer>
